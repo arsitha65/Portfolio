@@ -32,7 +32,7 @@ function App() {
         <Projects />
         <Skills />
         <Education />
-        <Certifications />
+        {/* <Certifications /> */}
         <Contact />
       </main>
       <Footer />
@@ -499,7 +499,7 @@ function CertCard({ title, org, period, link }) {
 
 function Contact() {
   return (
-    <section id="contact" className="section">
+    <section id="contact" className="section section--alt">
       <div className="container">
         <SectionTitle>Get In Touch</SectionTitle>
 
