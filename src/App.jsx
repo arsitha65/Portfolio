@@ -184,7 +184,6 @@ function TimelineRow({ role, company, location, period, bullets }) {
   return (
     <div className="timeline-row reveal-on-scroll">
       <div className="timeline-row__line">
-        <span className="timeline-row__dot" />
       </div>
       <article className="timeline-card">
         <div className="timeline-card__header">
