@@ -213,7 +213,7 @@ function Projects() {
   const projects = [
     {
       title: "AI Log Analysis Dashboard",
-      period: "2025 – Present",
+      period: "2025",
       points: [
         "Built a full-stack AI system that ingests and parses logs using Spring Boot and PostgreSQL.",
         "Integrated a FastAPI microservice using GPT-4o-mini to cluster errors and generate debugging insights.",
@@ -224,7 +224,7 @@ function Projects() {
     },
     {
       title: "Abstractive text summarization",
-      period: "2024 – 2025",
+      period: "2024",
       points: [
         "Fine-tuned an mT5 transformer on a custom Telugu dataset for abstractive summarization..",
         "Implemented preprocessing pipelines for tokenization and normalization.",
@@ -234,8 +234,19 @@ function Projects() {
       codeLink: "https://github.com/arsitha20/CS678-Abstractive-Text-Summarization-Telugu",
     },
     {
+      title: "Smart Resume Screener",
+      period: "2024",
+      points: [
+        "Built a web platform to evaluate resume-job fit, featuring resume uploads and JWT-based login.",
+        "Developed frontend in React and backend in Spring Boot, PostgreSQL to manage users, files, and APIs.",
+        "Created a Python microservice using BERT to compute match scores and integrated OPENAI GPT for candidate fit analysis.",
+      ],
+      tech: ["React", "TailwindCSS", "HTML", "CSS", "Spring Boot", "postgreSQL", "Python", "BERT", "OpenAI GPT"],
+      codeLink: "",
+    },
+    {
       title: "Departmental Connect",
-      period: "2024 – 2025",
+      period: "2021",
       points: [
         "Rebuilt a static departmental site into a dynamic React and Node.js platform.",
         "Added searchable course content, faculty pages, announcements, and admin tools.",
