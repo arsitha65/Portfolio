@@ -108,18 +108,18 @@ function Hero() {
           </h1>
 
           <p className="hero__subtitle">
-            I build scalable applications using Java, Spring Boot, React, Node.js, and cloud platforms on AWS and Azure.
+            I am a Software Engineer with over 2 years of experience in the full software development lifecycle, from concept to deployment. I specialize in building scalable web applications using Java, Spring Boot, Angular, and TypeScript.
           </p>
           <p className="hero__subtitle">
-            From crafting intuitive UIs to designing reliable APIs and microservices, I focus on solving real problems with clean, production-ready code.
+            My recent work focuses on developing conversational voice agents and intelligent automation tools. I utilize technologies like Python, Azure AI, and RAG to create systems that improve user engagement and operational efficiency.
           </p>
           <p className="hero__subtitle">
-            Recently, I have been working on AI-powered systems, building LLM-based log analysis tools, resume-matching workflows, and automation features that make applications smarter and more efficient.
+            I am committed to writing clean, maintainable code and optimizing system performance, ensuring that every solution I deliver is secure and production-ready.
           </p>
 
           <div className="hero__actions">
             <a
-              href="/Arsitha_Sathu_Resume.pdf"
+              href="/Arsitha_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
@@ -138,29 +138,27 @@ function Hero() {
 function Experience() {
   const items = [
     {
-      role: "Software Engineer",
+      role: "Software Engineer(Remote)",
       company: "Blue Horse Digital",
       location: "Richmond, VA",
       period: "July 2025 – present",
       bullets: [
-        "Built the core speech-to-speech voicebot workflow using Azure Container Apps and GPT-4o Realtime.",
-        "Developed FastAPI backend services and integrated Azure Speech SDK for smooth STT/TTS calls.",
-        "Implemented WebSocket communication to support low-latency, real-time audio exchange.",
-        "Automated CI/CD pipelines for deploying containerized services through Azure Container Registry.",
-        "Centralized secrets and configuration using Azure Key Vault to strengthen deployment security.",
+        "Architected a low-latency, voice agent using Python (aiohttp) and Azure AI Services (Speech/GPT-4o), optimizing client-side audio with a custom JavaScript Audio Worklet (resampling/anti-aliasing) and implementing barge-in interruption for sub-second, natural responsiveness.",
+        "Built a custom Agentic Workflow (MCP-based) and Retrieval-Augmented Generation (RAG) engine leveraging Azure OpenAI Embeddings to autonomously execute complex reasoning, query USDA policies, and provide accurate, citation-backed answers.",
+        "Engineered a hands-free PDF Form Filling system that dynamically inspects schemas (using pypdf) to map conversational data into applications in real-time, auto-generating and emailing completed forms without manual input.",
+        "Deployed the scalable, containerized application to Azure Container Apps using Docker multi-stage builds, ensuring secure API key management and robust production infrastructure."
       ],
     },
     {
       role: "Fullstack Developer ",
       company: "Infosys Limited ",
-      location: "Hyderabad, Telangana, India",
+      location: "India",
       period: "Oct 2021 – July 2023",
       bullets: [
-        "Built fullstack features using Java, Spring Boot, Angular, and TypeScript for production systems.",
-        "Designed and optimized microservices with PostgreSQL, improving API performance through query tuning.",
-        "Created reusable UI components such as dynamic tables, filters, and role-based views.",
-        "Debugged production issues by analyzing logs, reproducing failures, and applying fixes across layers.",
-        "Ensured high-quality code using SonarQube standards and JUnit tests with more than 95% coverage.",
+        "Developed production REST APIs and microservices using Java, Spring Boot, Angular, and PostgreSQL, supporting enterprise applications across multiple client projects.",
+        "Optimized database queries and API endpoints, improving response times by 25-30% through strategic indexing and query refactoring.",
+        "Built a reusable Angular component library (dynamic tables, filters, role-based controls) adopted across development teams, reducing UI development time by 30%.",
+        "Resolved high-priority production bottlenecks with over 90% test coverage using JUnit while driving continuous integration and code quality within an Agile Scrum methodology.",
       ],
     },
   ];
@@ -373,32 +371,24 @@ function Skills() {
   const categories = [
     {
       title: "Programming Languages",
-      skills: ["Java", "Python", "C", "SQL"],
+      skills: ["Java", "Python", "C", "SQL", "HTML", "CSS", "JavaScript", "TypeScript", "JSON", "Bash", "Shell Scripting"],
     },
     {
-      title: "Backend",
-      skills: ["Spring Boot", "Node.js", "REST APIs", "Microservices", "Hibernate", "GraphQL"],
+      title: "Frameworks & Libraries",
+      skills: ["Spring Boot", "Node.js", "React", "Angular", "FastAPI", "PyTorch", "OpenAI SDK", "LangChain (Agentic Workflows)", "PyPDF"],
     },
     {
-      title: "Frontend",
-      skills: ["React", "Angular", "TypeScript", "HTML/CSS", "JavaScript", "JSON"],
+      title: "Data & Infrastructure",
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "REST API", "Microservices", "WebSockets", "AWS (EC2, S3)", "Azure", "AI Foundry", "Speech Services", "Container Apps", "OpenAI (GPT-4o)", "Azure Key Vault", "Docker", "Kubernetes", "Jenkins", "CI/CD", "RAG", "MCP", "AudioWorklet"],
     },
     {
-      title: "Database",
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "SQL"],
+      title: "Development Tools",
+      skills: ["Git", "Postman", "Swagger", "JUnit", "JIRA", "SonarQube", "VS Code", "IntelliJ IDEA", "ChatGPT", "Claude", "GitHub Copilot", "Cursor", "Gemini", "Figma (UI/UX)"],
     },
     {
-      title: "Testing",
-      skills: ["JUnit", "Jest", "Postman", "Swagger", "SonarQube"],
-    },
-    {
-      title: "DevOps & Cloud",
-      skills: ["Docker", "Jenkins", "AWS(EC2, S3)", "Azure(AI Services, Key Vault)", "Container Apps", "CI/CD", "Git", "Bitbucket"],
-    },
-    {
-      title: "Tools & Scripting",
-      skills: ["Bash", "Shell", "Linux", "VS Code", "IntelliJ", "Postman"],
-    },
+      title: "Domain Knowledge",
+      skills: ["Data Structures & Algorithms", "Operating Systems", "Embedded Systems", "NLP", "LLMs", "Data Mining", "Networking Fundamentals", "TCP/IP Model", "UDP", "HTTP/HTTPS"],
+    }
   ];
 
   return (
@@ -443,7 +433,7 @@ function Education() {
 
         <div className="edu-card reveal-on-scroll">
           <h3>Bachelors in Computer Science</h3>
-          <p>Jawaharlal Technological University — Telangana, India</p>
+          <p>Jawaharlal Technological University — India</p>
           <p className="edu-card__period">2017 – 2021</p>
         </div>
       </div>
