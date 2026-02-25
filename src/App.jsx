@@ -32,7 +32,7 @@ function App() {
         <Projects />
         <Skills />
         <Education />
-        {/* <Certifications /> */}
+        <Certifications />
         <Contact />
       </main>
       <Footer />
@@ -451,12 +451,12 @@ function Certifications() {
 
         <div className="cert-grid">
           <CertCard
-            title="AWS Certified Developer – Associate"
+            title="AWS Certified Cloud Practitioner"
             org="Amazon Web Services"
-            period="2024 – 2027"
-            link="/cert-aws-developer.pdf"
+            period="2026 – 2029"
+            link="https://www.credly.com/badges/1854b06e-1a4b-42d6-a2ce-205de0d7f23e/linked_in?t=tam9ho"
           />
-          <CertCard
+          {/* <CertCard
             title="AWS Certified Cloud Practitioner"
             org="Amazon Web Services"
             period="2023 – 2027"
@@ -467,7 +467,7 @@ function Certifications() {
             org="GitHub"
             period="2025 – 2028"
             link="/cert-github-foundations.pdf"
-          />
+          /> */}
         </div>
       </div>
     </section>
