@@ -533,7 +533,7 @@ function Contact() {
             <div className="contact-item">
               <FaLinkedin className="contact-icon" />
               <a
-                href="https://www.linkedin.com/in/arsitha-sathu/"
+                href="https://www.linkedin.com/in/arsitha/"
                 target="_blank"
                 rel="noreferrer"
               >
