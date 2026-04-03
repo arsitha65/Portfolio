@@ -108,13 +108,13 @@ function Hero() {
           </h1>
 
           <p className="hero__subtitle">
-            I am a Software Engineer with over 2 years of experience in the full software development lifecycle, from concept to deployment. I specialize in building scalable web applications using Java, Spring Boot, Angular, and TypeScript.
+            I am a Software Engineer with over 2 years of experience working across the full development lifecycle, building and deploying scalable applications using Java, Spring Boot, Angular, and TypeScript. My work has primarily focused on designing microservices, developing REST APIs, and building data-driven systems, along with hands-on experience in PostgreSQL, Kafka, and cloud environments like AWS and Azure.
           </p>
           <p className="hero__subtitle">
-            My recent work focuses on developing conversational voice agents and intelligent automation tools. I utilize technologies like Python, Azure AI, and RAG to create systems that improve user engagement and operational efficiency.
+            Recently, I have been working on AI-driven systems where I built a low-latency voice agent using Python and Azure AI services, along with developing agentic workflows and RAG-based solutions to handle complex queries with accurate, citation-backed responses. I have also worked on automation systems like real-time PDF form filling and log analysis platforms that combine backend services with AI components for practical use cases.
           </p>
           <p className="hero__subtitle">
-            I am committed to writing clean, maintainable code and optimizing system performance, ensuring that every solution I deliver is secure and production-ready.
+            I focus on writing clean, maintainable code and building systems that are reliable in production. My experience includes containerizing applications with Docker, setting up CI/CD pipelines using Jenkins, and deploying scalable services on cloud platforms, ensuring performance, security, and smooth operation in real-world environments.
           </p>
 
           <div className="hero__actions">
@@ -150,15 +150,17 @@ function Experience() {
       ],
     },
     {
-      role: "Fullstack Developer ",
+      role: "Java Fullstack Developer ",
       company: "Infosys Limited ",
       location: "India",
       period: "Oct 2021 – July 2023",
       bullets: [
-        "Developed production REST APIs and microservices using Java, Spring Boot, Angular, and PostgreSQL, supporting enterprise applications across multiple client projects.",
-        "Optimized database queries and API endpoints, improving response times by 25-30% through strategic indexing and query refactoring.",
-        "Built a reusable Angular component library (dynamic tables, filters, role-based controls) adopted across development teams, reducing UI development time by 30%.",
-        "Resolved high-priority production bottlenecks with over 90% test coverage using JUnit while driving continuous integration and code quality within an Agile Scrum methodology.",
+        "Built backend services using Java 8 and Spring Boot to manage compliance records, audit logs, and regulatory workflows, exposing REST APIs for internal systems",
+        "Developed responsive UI using Angular and TypeScript, implementing forms and dashboards used by compliance teams to track audit status and policy adherence.",
+        "Designed secure access using Spring Security with role-based authorization, supporting different user roles like auditors and administrators.",
+        "Integrated frontend and backend systems using REST APIs and handled structured data exchange in JSON, ensuring consistency across services.",
+        "Worked with Hibernate and PostgreSQL, writing optimized queries and supporting reporting features for compliance tracking.",
+        "Implemented event-driven updates using Kafka and supported deployments using Docker and Jenkins on AWS, including basic monitoring and production issue handling."
       ],
     },
   ];
@@ -218,6 +220,18 @@ function Projects() {
         "Designed a React dashboard for one-click analysis and visualizing error clusters.",
       ],
       tech: ["React", "Spring Boot", "PostgreSQL", "LLM"],
+      codeLink: "https://github.com/arsitha20/AI-Log-Analysis-Dashboard",
+    },
+    {
+      title: "Task Flow",
+      period: "2025",
+      points: [
+        "Built backend services using Java 17/ Spring Boot to handle task creation, updates, and deadline tracking, exposing well-structured APIs for frontend consumption.",
+        "Integrated AWS SQS to process task reminders asynchronously, ensuring notifications are triggered without blocking user requests.",
+        "Containerized services using Docker and deployed them on Kubernetes, configuring deployments and services for scalable execution.",
+        "Set up a Jenkins CI/CD pipeline to automate build, test, Docker image creation, and deployment to a Kubernetes cluster hosted on AWS EC2, with data stored in AWS RDS (PostgreSQL). ",
+      ],
+      tech: ["Java 17", "Spring Boot", "REST APIs", "React", "Typescript", "AWS (SQS, EC2, RDS)", "PostgreSQL", "Docker", "Kubernetes", "Jenkins", "Git"],
       codeLink: "https://github.com/arsitha20/AI-Log-Analysis-Dashboard",
     },
     {
@@ -371,23 +385,23 @@ function Skills() {
   const categories = [
     {
       title: "Programming Languages",
-      skills: ["Java", "Python", "C", "SQL", "HTML", "CSS", "JavaScript", "TypeScript", "JSON", "Bash", "Shell Scripting"],
+      skills: ["Java", "Python", "JavaScript", "TypeScript", "SQL", "C", "C++", "HTML", "CSS", "Bash", "Shell Scripting"],
     },
     {
       title: "Frameworks & Libraries",
-      skills: ["Spring Boot", "Node.js", "React", "Angular", "FastAPI", "PyTorch", "OpenAI SDK", "LangChain (Agentic Workflows)", "PyPDF"],
+      skills: ["Spring Boot", "React.js", "Node.js", "Angular", "FastAPI", "PyTorch", "OpenAI SDK", "LangChain (Agentic Workflows)", "PyPDF", "Spring Security", "Hibernate (JPA)"],
     },
     {
       title: "Data & Infrastructure",
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "REST API", "Microservices", "WebSockets", "AWS (EC2, S3)", "Azure", "AI Foundry", "Speech Services", "Container Apps", "OpenAI (GPT-4o)", "Azure Key Vault", "Docker", "Kubernetes", "Jenkins", "CI/CD", "RAG", "MCP", "AudioWorklet"],
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "REST API", "Microservices", "WebSockets", "AWS (EC2, S3)", "Azure (AI Foundry, Speech Services, Container Apps, OpenAI (GPT-4o), Azure Key Vault)", "Docker", "Kubernetes", "Jenkins", "Kafka", "CI/CD", "RAG", "MCP", "AudioWorklet"],
     },
     {
       title: "Development Tools",
-      skills: ["Git", "Postman", "Swagger", "JUnit", "JIRA", "SonarQube", "VS Code", "IntelliJ IDEA", "ChatGPT", "Claude", "GitHub Copilot", "Cursor", "Gemini", "Figma (UI/UX)"],
+      skills: ["Git", "Postman", "Swagger", "JUnit", "JIRA", "SonarQube", "VS Code", "IntelliJ IDEA", "ChatGPT", "Claude", "GitHub Copilot", "Cursor", "Gemini", "Microsoft 365 (Excel, PowerPoint, Teams, Outlook, Word)", "Mockito"],
     },
     {
       title: "Domain Knowledge",
-      skills: ["Data Structures & Algorithms", "Operating Systems", "Embedded Systems", "NLP", "LLMs", "Data Mining", "Networking Fundamentals", "TCP/IP Model", "UDP", "HTTP/HTTPS"],
+      skills: ["Data Structures & Algorithms", "Operating Systems", "NLP", "LLMs", "Data Mining", "Networking Fundamentals"],
     }
   ];
 
