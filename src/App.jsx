@@ -219,7 +219,7 @@ function App() {
               <div className="cert-row">
                 <a
                   className="cert-badge cert-badge--link"
-                  href="https://www.credly.com/badges/1854b06e-1a4b-42d6-a2ce-205de0d7f23e/linked_in?t=tam9ho"
+                  href="https://www.credly.com/earner/earned/badge/575e3d43-0cd7-4d36-b964-7c1acf0c1435"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="AWS Cloud Practitioner Badge"
@@ -236,7 +236,13 @@ function App() {
                   />
                   <small className="cert-badge__fallback">AWS Cloud Practitioner</small>
                 </a>
-                <div className="cert-badge">
+                <a
+                  className="cert-badge cert-badge--link"
+                  href="https://www.credly.com/earner/earned/badge/3a4fb28f-4e2c-4b9c-8d89-c7accd4c3ede"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="AWS Solutions Architect Badge"
+                >
                   <img
                     src={awsSaBadge}
                     alt="AWS Solutions Architect"
@@ -248,7 +254,7 @@ function App() {
                     }}
                   />
                   <small className="cert-badge__fallback">AWS Solutions Architect</small>
-                </div>
+                </a>
               </div>
             </section>
           </>
@@ -315,7 +321,7 @@ function App() {
             <div className="cert-row">
               <a
                 className="cert-badge cert-badge--link"
-                href="https://www.credly.com/badges/1854b06e-1a4b-42d6-a2ce-205de0d7f23e/linked_in?t=tam9ho"
+                href="https://www.credly.com/earner/earned/badge/575e3d43-0cd7-4d36-b964-7c1acf0c1435"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="AWS Cloud Practitioner Badge"
@@ -332,7 +338,13 @@ function App() {
                 />
                 <small className="cert-badge__fallback">AWS Cloud Practitioner</small>
               </a>
-              <div className="cert-badge">
+              <a
+                className="cert-badge cert-badge--link"
+                href="https://www.credly.com/earner/earned/badge/3a4fb28f-4e2c-4b9c-8d89-c7accd4c3ede"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="AWS Solutions Architect Badge"
+              >
                 <img
                   src={awsSaBadge}
                   alt="AWS Solutions Architect"
@@ -344,7 +356,7 @@ function App() {
                   }}
                 />
                 <small className="cert-badge__fallback">AWS Solutions Architect</small>
-              </div>
+              </a>
             </div>
           </section>
         )}
