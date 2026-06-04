@@ -159,7 +159,12 @@ function App() {
                     <FaGithub />
                   </a>
                 </div>
-                <a href="./AI_Arsitha_Resume.pdf" target="_blank" rel="noreferrer" className="cta-button">
+                <a
+                  href={`${import.meta.env.BASE_URL}AI_Arsitha_Resume.pdf`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="cta-button"
+                >
                   <FiFileText className="cta-icon" />
                   <span>View Resume</span>
                 </a>
