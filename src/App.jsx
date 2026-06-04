@@ -9,12 +9,12 @@ import awsSaBadge from "./assets/solution_architect_image.png";
 
 const projects = [
   {
-    title: "AI Log Analysis Dashboard",
-    category: "Backend",
+    title: "Clip Lens",
+    category: "Full Stack",
     summary:
-      "Full-stack AI system for ingesting logs, clustering failures, and generating debugging insights in a React dashboard.",
-    tech: ["React", "Spring Boot", "PostgreSQL", "FastAPI", "LLM"],
-    link: "https://github.com/arsitha20/AI-Log-Analysis-Dashboard",
+      "ClipLearn is a multi-agent AI app that transforms any YouTube lecture into a complete study environment. Paste a URL and get a timestamped outline, smart summaries, flashcards, and semantic search powered by 5 specialized AI agents. Built with FastAPI, OpenAI API, and ChromaDB.",
+    tech: ["Python", "FastAPI", "SSE Streaming", "aiohttp", "ChromaDB", "OpenAI GPT-4o", "yt-dlp", "HTML", "CSS", "JavaScript"],
+    link: "https://github.com/arsitha65/clipLearn",
   },
   {
     title: "Abstractive Text Summarization",
@@ -25,12 +25,12 @@ const projects = [
     link: "https://github.com/arsitha20/CS678-Abstractive-Text-Summarization-Telugu",
   },
   {
-    title: "Departmental Connect",
+    title: "Voice Bot",
     category: "Full Stack",
     summary:
-      "Department portal rebuilt into a dynamic React and Node.js platform with searchable content and admin tools.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    link: "https://github.com/arsitha28/CSE-Department-Website",
+      "A real-time, browser-based voice assistant with a cascading STT → LLM → TTS pipeline, featuring barge-in interruption support, provider-agnostic speech and LLM integration, and containerized deployment on Azure Container Apps.",
+    tech: ["Python", "Next.js", "Docker", "Azure"],
+    link: "https://github.com/arsitha65/Voice-Bot",
   },
   {
     title: "Portfolio",
@@ -38,7 +38,7 @@ const projects = [
     summary:
       "Personal Portfolio website that is Responsive and Interactive to Showcase my Projects and Skills.",
     tech: ["React", "JavaScript", "Vite"],
-    link: "https://github.com/arsitha20/Portfolio",
+    link: "https://github.com/arsitha65/Portfolio",
   },
 ];
 
@@ -88,7 +88,7 @@ function App() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const email = "sathuarsitha@gmail.com";
+  const email = "reddy.arsitha1528@gmail.com";
 
   const copyEmail = async () => {
     try {
@@ -152,14 +152,14 @@ function App() {
                   </button>
                 </div>
                 <div className="hero-socials">
-                  <a className="social-icon-link social-icon-link--linkedin" href="https://www.linkedin.com/in/arsitha/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                  <a className="social-icon-link social-icon-link--linkedin" href="https://www.linkedin.com/in/arsitha28/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                     <FaLinkedin />
                   </a>
-                  <a className="social-icon-link social-icon-link--github" href="https://github.com/arsitha20" target="_blank" rel="noreferrer" aria-label="GitHub">
+                  <a className="social-icon-link social-icon-link--github" href="https://github.com/arsitha65" target="_blank" rel="noreferrer" aria-label="GitHub">
                     <FaGithub />
                   </a>
                 </div>
-                <a href="/Arsitha_Resume.pdf" target="_blank" rel="noreferrer" className="cta-button">
+                <a href="./AI_Arsitha_Resume.pdf" target="_blank" rel="noreferrer" className="cta-button">
                   <FiFileText className="cta-icon" />
                   <span>View Resume</span>
                 </a>
@@ -236,19 +236,19 @@ function App() {
                   />
                   <small className="cert-badge__fallback">AWS Cloud Practitioner</small>
                 </a>
-                {/* <div className="cert-badge">
-              <img
-                src={awsSaBadge}
-                alt="AWS Solutions Architect"
-                className="cert-badge__image"
-                onError={(e) => {
-                  e.currentTarget.style.display = "none";
-                  const next = e.currentTarget.nextElementSibling;
-                  if (next) next.style.display = "block";
-                }}
-              />
-              <small className="cert-badge__fallback">AWS Solutions Architect</small>
-            </div> */}
+                <div className="cert-badge">
+                  <img
+                    src={awsSaBadge}
+                    alt="AWS Solutions Architect"
+                    className="cert-badge__image"
+                    onError={(e) => {
+                      e.currentTarget.style.display = "none";
+                      const next = e.currentTarget.nextElementSibling;
+                      if (next) next.style.display = "block";
+                    }}
+                  />
+                  <small className="cert-badge__fallback">AWS Solutions Architect</small>
+                </div>
               </div>
             </section>
           </>
