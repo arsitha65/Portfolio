@@ -88,7 +88,7 @@ function App() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const email = "reddy.arsitha1528@gmail.com";
+  const email = "sathuarsitha@gmail.com";
 
   const copyEmail = async () => {
     try {
@@ -152,7 +152,7 @@ function App() {
                   </button>
                 </div>
                 <div className="hero-socials">
-                  <a className="social-icon-link social-icon-link--linkedin" href="https://www.linkedin.com/in/arsitha28/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                  <a className="social-icon-link social-icon-link--linkedin" href="https://www.linkedin.com/in/arsitha-sathu-a412a3405" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                     <FaLinkedin />
                   </a>
                   <a className="social-icon-link social-icon-link--github" href="https://github.com/arsitha65" target="_blank" rel="noreferrer" aria-label="GitHub">
@@ -160,7 +160,7 @@ function App() {
                   </a>
                 </div>
                 <a
-                  href={`${import.meta.env.BASE_URL}AI_Arsitha_Resume.pdf`}
+                  href={`${import.meta.env.BASE_URL}Arsitha_Resume.pdf`}
                   target="_blank"
                   rel="noreferrer"
                   className="cta-button"
