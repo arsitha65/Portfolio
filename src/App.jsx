@@ -152,7 +152,7 @@ function App() {
                   </button>
                 </div>
                 <div className="hero-socials">
-                  <a className="social-icon-link social-icon-link--linkedin" href="https://www.linkedin.com/in/arsitha-sathu-a412a3405" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                  <a className="social-icon-link social-icon-link--linkedin" href="https://www.linkedin.com/in/arsitha-reddy" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                     <FaLinkedin />
                   </a>
                   <a className="social-icon-link social-icon-link--github" href="https://github.com/arsitha65" target="_blank" rel="noreferrer" aria-label="GitHub">
